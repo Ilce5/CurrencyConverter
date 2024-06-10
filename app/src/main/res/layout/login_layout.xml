@@ -31,7 +31,7 @@
                     android:id="@+id/login_email_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="@string/email" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Space
@@ -47,7 +47,7 @@
                     android:id="@+id/login_password_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint"
+                    android:hint="@string/password"
                     android:inputType="textPassword"/>
             </com.google.android.material.textfield.TextInputLayout>
 

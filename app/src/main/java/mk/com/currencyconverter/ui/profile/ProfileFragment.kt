@@ -12,6 +12,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.InvalidationTracker
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.catch
@@ -69,6 +70,16 @@ class ProfileFragment : Fragment() {
             binding.profileSpinner.setSelection(languageItems.indexOfFirst { item -> item.language == selectedLanguage })
         })
         selectLanguage(mainActivity)
+
+        val user = FirebaseAuth.getInstance().currentUser
+
+        if (user != null && user.displayName != null) {
+            binding.userName.text = user.displayName
+        }
+
+        if (user != null && user.email != null) {
+            binding.email.text = user.email
+        }
     }
 
     private fun selectLanguage(yourActivity: MainActivity) {

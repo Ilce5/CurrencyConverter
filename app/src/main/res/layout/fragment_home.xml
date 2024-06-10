@@ -46,7 +46,7 @@
                         android:id="@+id/selected_currency_input_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="1"
+                        android:hint=""
                         android:clickable="false"
                         android:focusable="false"/>
                 </com.google.android.material.textfield.TextInputLayout>
@@ -143,7 +143,7 @@
         android:id="@+id/exchange_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/convert_button"
         android:layout_marginTop="@dimen/medium_padding"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

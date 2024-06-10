@@ -28,4 +28,6 @@
 
     <item type="id" name="language_image"/>
     <item type="id" name="language_text"/>
+    <item type="id" name="user_name"/>
+    <item type="id" name="email"/>
 </resources>

@@ -73,7 +73,7 @@ class HistoryFragment : Fragment() {
             repository.allHistory.collect { historyList ->
                 dataList.clear()
                 dataList.addAll(historyList)
-                historyAdapter.notifyDataSetChanged() // Notify the adapter to update the view
+                historyAdapter.notifyDataSetChanged()
             }
         }
 

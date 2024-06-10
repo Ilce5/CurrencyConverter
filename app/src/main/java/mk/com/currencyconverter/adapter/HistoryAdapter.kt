@@ -21,9 +21,6 @@ class HistoryAdapter(private val historyList: ArrayList<History>): RecyclerView.
         val resultText = "${currentItem.result} ${currentItem.currency}"
         holder.input.text = inputText
         holder.result.text = resultText
-        holder.itemView.setOnClickListener{
-            onItemClick?.invoke(currentItem)
-        }
     }
     override fun getItemCount(): Int {
         return historyList.size
