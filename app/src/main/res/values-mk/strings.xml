@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency converter</string>
+    <string name="title_home">Дома</string>
+    <string name="value">Вредност</string>
+    <string name="currency">Валута</string>
+    <string name="input">Внес</string>
+    <string name="output">Резултат</string>
+    <string name="login_button">Логирај се</string>
+    <string name="anonymous">Анонимен</string>
+    <string name="language">Јазик</string>
+    <string name="title_history">Историја</string>
+    <string name="title_profile">Профил</string>
+    <string name="convert_button">Пресметај</string>
+</resources>

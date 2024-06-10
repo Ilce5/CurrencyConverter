@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="selected_currency_text"/>
+    <item type="id" name="selected_currency_input_layout"/>
+    <item type="id" name="selected_currency_input_edit_text"/>
+    <item type="id" name="selected_currency_spinner"/>
+    <item type="id" name="input_currency_text"/>
+    <item type="id" name="input_currency_input_layout"/>
+    <item type="id" name="input_currency_input_edit_text"/>
+    <item type="id" name="input_currency_button"/>
+    <item type="id" name="input_currency_spinner"/>
+    <item type="id" name="result_currency_layout"/>
+    <item type="id" name="result_currency_edit_text"/>
+    <item type="id" name="exchange_button"/>
+
+    <item type="id" name="history_text_input"/>
+    <item type="id" name="history_text_result"/>
+    <item type="id" name="history_recycler_view"/>
+
+    <item type="id" name="login_email_input_layout"/>
+    <item type="id" name="login_email_edit_text"/>
+    <item type="id" name="login_password_input_layout"/>
+    <item type="id" name="login_password_edit_text"/>
+    <item type="id" name="login_button"/>
+    <item type="id" name="google_login"/>
+    <item type="id" name="fb_login"/>
+    <item type="id" name="anonymous_login"/>
+
+    <item type="id" name="language_image"/>
+    <item type="id" name="language_text"/>
+</resources>

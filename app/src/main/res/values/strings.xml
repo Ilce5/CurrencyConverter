@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Currency converter</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="value">Value</string>
+    <string name="currency">Currency</string>
+    <string name="input">Input</string>
+    <string name="output">Output</string>
+    <string name="convert_button">Convert</string>
+
+    <string name="default_web_client_id" translatable="false">200707350637-hhjchs4giednegct462fd8u4bgturtmd.apps.googleusercontent.com</string>
+
+    <string name="login_button">Login</string>
+    <string name="google_button" translatable="false">Google</string>
+    <string name="facebook_button" translatable="false">Facebook</string>
+    <string name="anonymous">Anonymous</string>
+
+    <string name="facebook_app_id" translatable="false">1741278056281499</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1234</string>
+    <string name="facebook_client_token" translatable="false">1e3323a6a78d743783a10506c2c57b84</string>
+
+    <string name="flag_image_description" translatable="false">Flag</string>
+    <string name="language" translatable="true">Language</string>
+</resources>
